@@ -27,11 +27,11 @@ requirements:
   host:
     - r-base
     - r-mass
-    - r-rgl
+    - r-plotly
   run:
     - r-base
     - r-mass
-    - r-rgl
+    - r-plotly
 
 test:
   commands:
@@ -51,5 +51,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - jdtuck
     - conda-forge/r
+    - jdtuck
